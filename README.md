@@ -22,6 +22,7 @@ cd curl_container
     - 必要に応じて編集してほしいところ
       - for文を回す回数(初期では100回)
       - sleepの間隔(初期では1秒間隔)
+        - sleepしたくない人は行ごと削除してください
   - 編集が終わったら次の手順へ
 
 - Dockerfileのbuild
