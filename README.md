@@ -46,7 +46,7 @@ docker run -d curl_container
 docker run curl_container
 ```
 
-- 実行結果は以下のように標準出力に表示された後にコンテナが停止する
+- 以下のように標準出力に指定回数分の実行結果が表示された後にコンテナが停止する
 
 ```bash
 nagashi_ma_w@localhost:~/curl_container/tools$ docker run curl_container
