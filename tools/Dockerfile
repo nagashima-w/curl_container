@@ -1,4 +1,4 @@
 FROM alpine:latest
-COPY curl.sh .
-RUN apk update && apk upgrade && apk add curl
-CMD [.curl.sh]
+RUN apk update && apk upgrade && apk add curl && mkdir /curl
+COPY curl.sh /curl
+CMD [/curl/curl.sh]
