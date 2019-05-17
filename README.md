@@ -31,7 +31,16 @@ docker build ./ -t curl_container
 ```
 
 #### コンテナの起動
-- docker runする
+
+##### curlのログが不要な人向け
+- コンテナをバックグラウンドで起動する
+
+```bash
+docker run -d curl_container
+```
+
+##### 標準出力で実行状況を見たい人向け
+- コンテナを起動する
 
 ```bash
 docker run curl_container
