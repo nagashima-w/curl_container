@@ -4,8 +4,7 @@
 URL="https://www.google.com/";
 
 i=1;
-# 回数を変えたい場合はここの数字を変える
-while [ $i -le 100 ];
+while [ $i -le 1 ];
 do
     SETDT=`date "+%Y%m%d%H%M%S"`
     curl -o /dev/null $URL;
