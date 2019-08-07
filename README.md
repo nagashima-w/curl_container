@@ -12,7 +12,7 @@ dockerコマンドが使えること
 
 ```bash
 git clone git@github.com:nagashima-w/curl_container.git
-cd curl_container
+cd curl_container/tools
 ```
 
 - tools/curl.shの編集
@@ -47,7 +47,6 @@ docker run -d curl_container
 docker run curl_container
 ```
 
-- ~~以下のように標準出力に指定回数分の実行結果が表示された後にコンテナが停止する~~
 - 無限ループするので好きなタイミングでコンテナを停止してください
 
 ```bash
