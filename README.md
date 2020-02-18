@@ -11,7 +11,7 @@ dockerコマンドが使えること
 - リポジトリのクローン
 
 ```bash
-git clone git@github.com:nagashima-w/curl_container.git
+git clone https://github.com/nagashima-w/curl_container.git
 cd curl_container/tools
 ```
 
